@@ -147,9 +147,8 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label4.Location = new System.Drawing.Point(323, 179);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 31);
+            this.label4.Size = new System.Drawing.Size(0, 31);
             this.label4.TabIndex = 10;
-            this.label4.Text = "label4";
             // 
             // Form1
             // 
