@@ -16,5 +16,19 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double a = double.Parse(textBox1.Text);
+                double b = double.Parse(textBox2.Text);
+                label2.Text = (a + b).ToString();
+            }
+            catch (FormatException)
+            {
+                label4.Text = "Моля попълни полетата";
+            }
+        }
     }
 }
